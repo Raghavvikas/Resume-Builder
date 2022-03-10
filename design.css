@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito",sans-serif;
+    color: #363b3b;
+    outline: none;
+}
+
+body{
+    background-color: lightblue;
+    color: #1f1f1f;
+    min-height: 100vh;
+}
+
+h3{
+    text-transform: uppercase;
+    line-height: 2;
+    letter-spacing: 2;
+    font-size: 18px;
+}
+
+h4{
+    font-size: 16px;
+}
+
+p{
+    font-size: 14px;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.resume{
+    width: 80vw;
+    min-height: 80vh;
+    margin: 4rem auto;
+    padding: 2rem 1rem;
+    box-shadow: rgba(99, 99, 99) 2px 2px 2px 2px;
+    background:rgb(246, 248, 247);
+}   
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+.header-image{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.header-name{
+    letter-spacing: 2;
+    text-transform: uppercase;
+    padding: .5rem;
+    text-align: center;
+}
+
+.header-job{
+    letter-spacing: 2;
+    padding-bottom: 0.5rem;
+}
+
+.header-contact{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0.5rem 0;
+    font-size: 14px;
+    justify-content: space-around;
+}
+
+.divider{
+    margin: 1rem 2rem;
+    width: 90%;
+    border: .5px solid #363b3b;
+}
+
+.body-resume{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.left-section{
+    border-right: 2px solid #363b3b;
+}
+
+.card-resume{
+    padding: 0.5rem 1rem;
+}
+
+.detail{
+    padding: 0.5rem 0;
+}
+
+.subdetail{
+    padding: 0.5rem 0;
+}
+
+.education{
+    padding: 0.5rem 0;
+}
+
+.skills-bar{
+    width: 100%;
+    background-color: #808080;
+}
+
+.html {width: 70%; background-color: #04AA6D;}
+.apti {width: 90%; background-color: #5da04f;}
+.js {width: 10%; background-color: #f44336;}
+.java {width: 50%; background-color: #add5e0;}
+
+.right-section{
+    padding: 1vh 0.5vw;
+    margin: ;
+}
